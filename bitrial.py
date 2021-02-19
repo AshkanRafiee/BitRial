@@ -13,7 +13,7 @@ import lxml
 sg.theme('DarkGreen2')  # Add a touch of color
 # All the stuff inside your window.
 layout = [[sg.Text('Calculate The Bitcoin Exchange Values!')],
-		  [sg.Text('Sarmaye(Rials): ', size=(25,1)),sg.Input(size=(65,1), key='rials_buy')],
+	  [sg.Text('Sarmaye(Rials): ', size=(25,1)),sg.Input(size=(65,1), key='rials_buy')],
           [sg.Text('Bitcoin price(Rials): ', size=(25,1)),sg.Input(size=(45,1), key='bitcoin_be_rial')],
           [sg.Text('Dollar price(Rials): ', size=(25,1)),sg.Input(size=(45,1), key='dollar_be_rial')],
           [sg.Text('Euro price(Rials): ', size=(25,1)),sg.Input(size=(45,1), key='euro_be_rial')],
