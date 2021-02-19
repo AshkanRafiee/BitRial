@@ -31,7 +31,7 @@ window = sg.Window('Exchange Calculator - Calculate The Bitcoin Exchange Values!
 
 ################Functions################
 def get_ratio():
-	#Disable Buttons
+    #Disable Buttons
     window['Calculate'].update(disabled=True)
     window['Get Ratio'].update(disabled=True)
 
